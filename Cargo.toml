@@ -1,0 +1,11 @@
+[package]
+name = "typtoclip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.4.1"
+clap = { version = "4.5.23", features = ["derive"] }
+typst = "0.12.0"
+typst-as-lib = { version = "0.11.1", features = ["packages"] }
+typst-render = "0.12.0"
